@@ -1,6 +1,6 @@
 {
   "name": "@sahilsharma2408/ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
