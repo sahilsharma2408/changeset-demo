@@ -23,7 +23,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.17.0
+          node-version: 18.18.0
           registry-url: 'https://npm.pkg.github.com'
           cache: yarn
 
@@ -50,6 +50,6 @@ jobs:
           version: yarn version:packages
           commit: "chore(release): version packages 🦋"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           NPM_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # NODE_AUTH_TOKEN: ${{ secrets.SIB_NODE_PACKAGE_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
