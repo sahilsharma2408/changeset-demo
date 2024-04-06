@@ -1,5 +1,11 @@
 # @repo/ui
 
+## 0.0.3
+
+### Patch Changes
+
+- [`0604bed`](https://github.com/sahilsharma2408/changeset-demo/commit/0604bede6aefdea7e10a8e1bbcb9b59dbdcff262) Thanks [@sahilsharma2408](https://github.com/sahilsharma2408)! - testing changeset release
+
 ## 0.0.2
 
 ### Patch Changes
